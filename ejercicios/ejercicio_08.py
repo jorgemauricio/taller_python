@@ -9,7 +9,7 @@
 #######################################
 
 Objetivo:
-Generar un archivo de texto (pass.txt) con al menos 1 millon de contraseñas
+Generar un archivo de texto (pass.txt) con al menos 10 mil de contraseñas
 que cumpla con los los siguientes requerimientos:
 1. Al menos un caracter entre [a-z]
 2. Al menos un numero entre [0-9]
