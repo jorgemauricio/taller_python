@@ -28,20 +28,19 @@ Resultado:
 HoLa123@7
 """
 
-passwords = ['HoLa123@7','12345','2w3E*','2We3345']
-
-minusculas = "abcdefghijklmnospqrstuvwxyz"
-mayusculas = "ABCDEFGHIJKLMNOSPQRSTUVWXYZ"
-numeros = "1234567890"
-simbolos = "$#@"
-LONG_MIN = 6
-LONG_MAX = 12
+passwords       = ['HoLa123@7','12345','2w3E*','2We3345']
+minusculas      = "abcdefghijklmnospqrstuvwxyz"
+mayusculas      = "ABCDEFGHIJKLMNOSPQRSTUVWXYZ"
+numeros         = "1234567890"
+simbolos        = "$#@"
+LONG_MIN        = 6
+LONG_MAX        = 12
 
 for password in passwords:
-    mayuscula = False
-    minuscula = False
-    numero = False
-    simbolo = False
+    mayuscula    = False
+    minuscula    = False
+    numero       = False
+    simbolo      = False
 
     if len(password) >= LONG_MIN and len(password)<= LONG_MAX:
         for letter in password:
