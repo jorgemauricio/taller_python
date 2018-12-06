@@ -48,9 +48,7 @@ def main():
         if validacion(password):
 
             # verificar si el pwd ya fue generado
-            if password in arreglo_password:
-                pass
-            else:
+            if password is not arreglo_password:
                 arreglo_password.append(password)
                 counter += 1
                 print("{} : {}".format(counter, password))

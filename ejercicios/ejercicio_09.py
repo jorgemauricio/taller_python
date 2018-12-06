@@ -26,7 +26,7 @@ import random
 # función main
 def main():
     # palabras claves
-    palabras_claves = ["juan", "lopez", "metallica", "2000"]
+    palabras_claves = ["jimena", "gomez", "rock", "perro", "azul", '1998']
 
     # generar passwords
     passwords = generar_pass(palabras_claves)
